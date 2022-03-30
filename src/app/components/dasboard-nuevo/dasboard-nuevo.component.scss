@@ -1,0 +1,48 @@
+
+//variables de colores
+$blue: #287bff;
+$white: #fff;
+$grey: #f5f5f5;
+$black1: #222;
+$black2: #999;
+
+
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 250px;
+  background-color: $blue;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+mat-nav-list a{
+  color: $white;
+}
+
+.color{
+  background-color: $blue;
+  color: $white;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.icon{
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.icon mat-icon{
+  font-size: 1.75em;
+}
